@@ -1,5 +1,28 @@
 const perf = require('execution-time')();
 
+//Step 1: Runtime Analysis
+
+//Extra Large Array Runtime:
+// Insert function - 780.26 ms 
+// Append function - 1.93 ms 
+
+//Large Array Runtime:
+// Insert function - 6.62 ms
+// Append function - 396 us
+
+//Medium Array Runtime:
+// Insert function - 154.38 ms
+// Append function - 105.42 ms 
+
+//Small Array Runtime:
+// Insert function - 27.80 ms
+// Append function - 60.58 ms
+
+//Tiny Array Runtime:
+// Insert function - 15.46 us
+// Append function - 42.29 us
+
+//The function that uses unshift is generally slower than the function that uses push because unshift has to shift all elements one spot to the left when a new element is added.
 
 function doublerAppend(nums){
 
