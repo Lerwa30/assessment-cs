@@ -26,6 +26,7 @@ console.log("addToZero", results.preciseWords);
 
 //Add to Zero is about 33.2 us
 // Time Complexity is O(n^2)
+// Space Complexity is 0(n^2)
 
 
 // 2 Unique Characters
@@ -45,6 +46,8 @@ console.log("hasUniqueChars", results2.preciseWords);
 
 //Has Unique Characters is about 4 us.
 // Time Complexity is O(n)
+// Space Complexity is 0(1)
+
 
 
 // 3 Pangram Sentence
@@ -70,6 +73,8 @@ console.log("isPanagram", results3.preciseWords);
 
 //isPanagram is about 5.3 us.
 // Time Complexity is O(n)
+// Space Complexity is 0(1)
+
 
 
 // 4 Longest Word
@@ -93,3 +98,5 @@ console.log("longestWord", results4.preciseWords);
 
 //Longest Word is about 2.2 us.
 // Time Complexity is O(n)
+// Space Complexity is O(n)
+
